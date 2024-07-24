@@ -53,16 +53,27 @@ body{
 header{
     display: flex;
     flex-flow: row wrap;
-    height: 600px;
-    background-color: gray;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
 }
  .linha-cabecalho{
     flex: 35;
     margin-left: 10%;
-    border: 4px solid green;
+    /* border: 4px solid green; */
+ }
+ .linha-cabecalho h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    padding: 0;
+    margin: 0;
  }
  .imgcabecalho{
     flex: 35%;
     margin-left: 10px;
-    border: 4px solid rgb(38, 0, 128);
+    /* border: 4px solid rgb(38, 0, 128); */
+    text-align: center;
  }
+ 
