@@ -15,11 +15,11 @@ body{
 .logo{
     flex:20%;
     /* border: 3px solid red; */
-    text-align: center;
+    text-align: left;
     color: #FF4500;
     font-size: 24px;
     margin-left: 10%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;   
 }
 .menu{
     Flex: 60%;
@@ -70,10 +70,45 @@ header{
     padding: 0;
     margin: 0;
  }
+ .linha-cabecalho p{
+    color: rgb(218, 213, 213);
+    text-align: left;
+ }
+ .botao-contato{
+    background-color: #FF4500;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+ }
+ .botao-contato:hover{
+    color: #FF4500;
+    background-color: white;
+ }
  .imgcabecalho{
     flex: 35%;
     margin-left: 10px;
     /* border: 4px solid rgb(38, 0, 128); */
     text-align: center;
+ }
+ .info{
+    margin-top: 80px;
+    border: 4px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5px;
+    height: 400px;
+    /* width: 90px; */
+    display: flex;
+ }
+ .info h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color: #FF4500;
  }
  
