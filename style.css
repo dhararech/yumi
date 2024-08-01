@@ -128,4 +128,20 @@ header{
      cursor: pointer;
      box-sizing: border-box;
  }
- 
+ .card:hover{
+    background-color: #FF4500;
+    color: white;
+    padding: 40px;
+ }
+.texto-oculto{
+    display: none;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display: block;
+}
