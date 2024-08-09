@@ -87,3 +87,60 @@ p{
     height: 400px;
     width: 600px;
 }
+
+/*Adicionando transições*/
+.inicio{
+    transition: transform 0.3s ease-in-out;
+}
+.expansao{
+    transition: transform 0.3s ease-in-out;
+}
+.atualidade{
+    transition: transform 0.3s ease-in-out;
+}
+.inicio:hover{
+    transform: scale(1.05);
+}
+.expansao:hover{
+    transform: scale(1.05);
+}
+.atualidade:hover{
+    transform: scale(1.05);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer-div{
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.footer-div h2{
+    font-size: 20px;
+    color: #FF4500;
+    margin-bottom: 16px;
+}
+.footer-div p, .footer-div a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer-div a img{
+    margin: 0 10px;
+}
+.footer-bottom{
+    background-color: #111;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
